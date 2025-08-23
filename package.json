@@ -1,0 +1,17 @@
+{
+  "name": "taskforge",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "dev:backend": "npm run dev --workspace backend",
+    "dev:frontend": "npm run dev --workspace frontend"
+  },
+  "devDependencies": {
+    "tsx": "^4.20.4",
+    "typescript": "^5.8.3",
+    "eslint": "^9.33.0"
+  }
+}
